@@ -1,0 +1,64 @@
+.effect6 {
+    position: relative;       
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    z-index: 2;
+}
+
+.effect6:before, .effect6:after {
+    content:"";
+    position:absolute; 
+    z-index:-1;
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:50%;
+    bottom:0;
+    left:10px;
+    right:10px;
+    border-radius:100px / 10px;
+}
+
+.logo {
+    width: 370px;
+}
+
+.bg-dark {
+    background-color: #000 !important;
+}
+
+.wrap-header {
+    font-family: 'Avenir LT Std 45 Book';
+}
+
+.wrap-header a {
+    text-decoration: none;
+}
+
+.download-app-big {
+    background-color: #579964;
+    letter-spacing: 1px;
+}
+
+.header-link {
+    font-size: 13px;
+}
+
+.header-link-icon {
+    font-size: 12px;
+}
+
+.download-app-big .img-icon {
+    position: absolute;
+    right: -15px;
+    width: 12px;
+    top: 5px;
+}
+
+@media (max-width: 1200px) {
+    .header-link-icon {
+        font-size: 10px;
+    }
+}
+
+.app-button {
+    right: 0;
+    top: 0;
+}

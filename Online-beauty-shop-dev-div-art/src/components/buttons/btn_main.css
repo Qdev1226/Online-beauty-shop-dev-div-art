@@ -1,0 +1,102 @@
+.btn-primary,
+.btn-primary:active {
+	background-color: #579a64;
+	border-color: #81b38a !important;
+	color: #fff;
+	outline: unset;
+	border-radius: 10px;
+	transition: all .4s;
+}
+
+.btn {
+	font-size: 14px;
+}
+
+.input-group .btn-primary {
+	border-radius: 5px;
+}
+
+.btn-primary:hover {
+	background-color: #579a64;
+	border-color: #63c094;
+    box-shadow: 0 4px 14px 0px rgba(87,154,100,0.5);
+    transition: all .4s;
+}
+
+.btn-outline {
+	background-color: transparent;
+	color: #579a64;
+}
+
+.btn-facebook {
+	background-color: #3b5998;
+	border-color: #3b5998 !important;
+}
+
+.btn-facebook:hover {
+	background-color: #3b5998;
+	box-shadow: 0 4px 14px 0px rgba(59,89,152,0.5);
+}
+
+.btn-google {
+	background-color: #d62d20;
+	border-color: #d62d20 !important;
+}
+
+.btn-google:hover {
+	background-color: #d62d20;
+	box-shadow: 0 4px 14px 0px rgba(214,45,32,0.5);
+}
+
+.btn-outline:hover {
+	background-color: #579a64;
+	color: #fff;
+}
+
+.btn-group .btn-primary.unactive {
+	background-color: #fff !important;
+	color:  #579a64;
+}
+
+.btn-group.btn-group-lg .btn-primary:focus {
+	box-shadow: unset;
+	background-color: #579a64;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+	background-color: #579a64;
+	outline: unset;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+	box-shadow: unset;
+	outline: unset;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #A7A7A8;
+    background-color: transparent;
+    border-color: #A7A7A8 !important;
+}
+
+.btn-white.btn-outline,
+.btn-white.btn-outline:active {
+	background-color: #fff !important;
+	color: #A7A7A8 !important;
+	border-color: #fff !important;
+}
+
+.btn-white.btn-outline:disabled {
+	background-color: transparent !important;
+	border-color: #A7A7A8 !important;
+}
+
+.btn-white.btn-outline:hover {
+	box-shadow: 0 4px 14px 0px rgba(255,255,255,0.5);
+}
+
+@media (max-width: 360px) {
+	.btn-primary {
+		font-size: 10px;
+	}
+}

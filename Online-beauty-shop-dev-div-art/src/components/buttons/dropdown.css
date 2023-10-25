@@ -1,0 +1,38 @@
+.drop-item:hover {
+	background-color: #609D6D;
+	color: #fff;
+}
+
+.wrap-drop-item {
+	top: 22px;
+	box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.3);
+	display: none;
+}
+
+.wrap-drop-item.up {
+	display: block;
+}
+
+.wrap-drop-item:before {
+    content: '';
+    border: solid #609D6D;
+    background: #fff;
+    border-width: 0 1px 1px 0px;
+    display: inline-block;
+    padding: 4px;
+    position: absolute;
+    top: -5px;
+    right: 27px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+@media (max-width: 576px) {
+    .wrap-drop-item {
+        right: -5px;
+    }
+
+    .wrap-drop-item:before {
+        right: 14px;
+    }
+}

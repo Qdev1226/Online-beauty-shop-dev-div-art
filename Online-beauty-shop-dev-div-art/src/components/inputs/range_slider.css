@@ -1,0 +1,8 @@
+.input-range__slider {
+	background: #fff;
+	border-color: #ccc;
+}
+
+.input-range__track--active {
+	background: #1DA464;
+}

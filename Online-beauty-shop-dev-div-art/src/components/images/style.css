@@ -1,0 +1,31 @@
+.avatar-hover {
+	height: 100%;
+	background-color: rgba(0,0,0,0.3);
+	bottom: -100%;
+	transition: bottom .2s;
+}
+
+.wrap-avatar {
+	overflow: hidden;
+	border-radius: 100%;
+}
+
+.text-avatar {
+    top: 70%;
+    -webkit-transform: translateY(-60%);
+    -ms-transform: translateY(-60%);
+    transform: translateY(-60%);
+    line-height: 18px;
+    font-size: 13px;
+}
+
+.wrap-avatar:hover .avatar-hover {
+	bottom: 0px;
+}
+
+.img-block {
+	background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+}

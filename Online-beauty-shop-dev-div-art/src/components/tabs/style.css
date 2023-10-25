@@ -1,0 +1,26 @@
+.nav-item.active,
+ .nav-tabs .nav-link.active {
+	border-color: #fff;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+	border-color: #fff;
+}
+
+.nav-item a {
+	color: inherit;
+}
+
+.nav-item a:hover,
+.nav-tabs .nav-link.active {
+	color: #609D6D;
+}
+
+.nav-tabs .nav-link.active {
+	border-bottom: 2px solid #609D6D;
+}
+
+.nav-pills .nav-link.active {
+	background-color: #609D6D;
+}

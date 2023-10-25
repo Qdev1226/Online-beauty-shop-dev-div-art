@@ -1,0 +1,132 @@
+.sw-theme-arrows {
+	border: 1px solid #ddd;
+}
+
+.sw-main {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border-radius: .25rem;
+}
+
+.sw-theme-arrows > ul.step-anchor {
+    border: 0;
+    padding: 0px;
+    background: #fff;
+    border-radius: 0;
+    border-top-right-radius: 5px;
+    list-style: none;
+    overflow: hidden;
+}
+
+.nav-tabs .nav-item {
+    margin-bottom: -1px;
+}
+
+.sw-theme-arrows > ul.step-anchor > li > span, .sw-theme-arrows > ul.step-anchor > li > span:hover {
+    color: #bbb;
+    text-decoration: none;
+    padding: 20px 0 20px 50px;
+    position: relative;
+    display: block;
+    border: 0 !important;
+    border-radius: 0;
+    outline-style: none;
+    background: #fff;
+}
+
+.sw-theme-arrows > ul.step-anchor > li.active > span:after {
+    border-left: 30px solid #fff !important;
+}
+
+.sw-theme-arrows > ul.step-anchor > li:first-child > span {
+    padding-left: 40px;
+}
+
+.sw-theme-arrows > ul.step-anchor > li > span:before {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 30px solid #ddd;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    margin-left: 1px;
+    left: 100%;
+    z-index: 1;
+}
+
+.sw-theme-arrows > ul.step-anchor > li > span:after {
+	content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 30px solid #fff;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    left: 100%;
+    z-index: 1;
+}
+
+.step-number {
+	background-color: #1DA464;
+	color: #fff;
+    padding: 6px 11px;
+    border-radius: 50%;
+}
+
+.step-number.check {
+	padding: 6px 8px;
+}
+
+.active .step-description {
+	padding-left: 10px;
+	display: inline-block;
+}
+
+.step-description {
+	display: none;
+}
+
+@media(max-width: 434px) {
+    .sw-theme-arrows > ul.step-anchor > li > span,
+    .sw-theme-arrows > ul.step-anchor > li > span:hover {
+        padding: 20px 0 20px 38px;
+    }
+
+    .sw-theme-arrows > ul.step-anchor > li:first-child > span {
+        padding-left: 10px;
+    }
+}
+
+@media(max-width: 376px) {
+    .sw-theme-arrows > ul.step-anchor > li:first-child > span,
+    .sw-theme-arrows > ul.step-anchor > li:first-child > span:hover {
+        padding-left: 5px;
+    }
+
+    .sw-theme-arrows > ul.step-anchor > li > span,
+    .sw-theme-arrows > ul.step-anchor > li > span:hover {
+        padding: 20px 0 20px 23px;
+    }
+
+    .sw-theme-arrows > ul.step-anchor > li > span:after {
+        border-left-width: 18px;
+    }
+
+    .sw-theme-arrows > ul.step-anchor > li > span:before {
+        border-left-width: 18px;
+    }
+
+    .sw-theme-arrows > ul.step-anchor > li.active > span:after {
+        border-left-width: 18px !important;
+    }
+}
+

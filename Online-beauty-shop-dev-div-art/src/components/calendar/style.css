@@ -1,0 +1,22 @@
+.month-item:hover:not(.color-grey),
+.month-item.active:not(.color-grey) {
+	background-color: #609D6D;
+	color: #fff;
+}
+
+.month-item.color-grey {
+	cursor: default;
+}
+
+.wrap-calendar-times {
+	overflow-y: auto;
+	height: 152px;
+}
+
+.wrap-calendar-times div:last-child {
+	border-bottom: none !important;
+}
+
+.wrap-calendar-times::-webkit-scrollbar {
+	display: none;
+}

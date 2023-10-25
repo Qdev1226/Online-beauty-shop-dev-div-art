@@ -1,0 +1,17 @@
+.btn-search {
+}
+
+.btn-search .fa-search {
+	font-size: 1.4em;
+}
+
+.btn-drop-search {
+	background-color: #DCDCDD;
+    border-right: 1px solid #c7c7c9;
+}
+
+.with-shadow {
+	-moz-box-shadow:    inset 20px 0px 25px 1px rgba(220, 220, 221, 0.8);
+	-webkit-box-shadow: inset 20px 0px 25px 1px rgba(220, 220, 221, 0.8);
+	box-shadow:         inset 20px 0px 25px 1px rgba(220, 220, 221, 0.8);
+}

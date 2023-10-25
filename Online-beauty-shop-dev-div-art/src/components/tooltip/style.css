@@ -1,0 +1,159 @@
+.tooltip-wrap {
+	z-index: 3;
+    min-width: 300px;
+    top: 70px;
+    right: 30px;
+    box-shadow: 0 0 15px 1px rgba(0,0,0,0.2);
+}
+
+.tooltip-wrap:before {
+    content: '';
+    position: absolute;
+    top: -12px;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid #fff;
+}
+
+.tooltip-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.3);
+    height: 10000px;
+    width: 10000px;
+}
+
+.tooltip-wrap.cart {
+    min-width: 330px;
+}
+
+.tooltip-wrap.login:before {
+    right: 80px;
+}
+
+.tooltip-wrap.cart:before {
+    right: 50px;
+}
+
+.tooltip-wrap.zip:before {
+    right: 100px;
+}
+
+.tooltip-wrap.menu:before {
+    left: 40px;
+}
+
+.tooltip-wrap.menu {
+    right: 0;
+    left: 0;
+}
+
+@media(max-width: 1199px) {
+    .tooltip-wrap.login:before {
+        right: 70px;
+    }
+
+    .tooltip-wrap.cart:before {
+        right: 40px;
+    }
+
+    .tooltip-wrap.zip:before {
+        right: 60px;
+    }
+
+    .tooltip-wrap {
+        top: 62px;
+    }
+}
+
+@media(max-width: 991px) {
+    .tooltip-wrap.login:before {
+        right: unset;
+        left: 80px;
+    }
+
+    .tooltip-wrap.cart:before {
+        right: 135px;
+    }
+
+    .tooltip-wrap.zip:before {
+        right: unset;
+        left: 70px;
+    }
+}
+
+@media(max-width: 767px) {
+    .tooltip-wrap.login:before {
+        right: unset;
+        left: 135px;
+    }
+
+    .tooltip-wrap.cart:before {
+        right: 90px;
+    }
+
+    .tooltip-wrap.zip:before {
+        right: unset;
+        left: 70px;
+    }
+
+    .tooltip-wrap.zip {
+        left: 0;
+    }
+}
+
+@media(max-width: 575px) {
+    .tooltip-wrap.cart {
+        left: auto;
+        right: unset;
+    }
+
+    .tooltip-wrap.zip {
+        left: unset;
+        right: 15px;
+    }
+
+    .tooltip-wrap.cart:before {
+        right: unset;
+    }
+
+    .tooltip-wrap.zip:before {
+        right: unset;
+        left: 110px;
+    }
+}
+
+@media(max-width: 529px) {
+    .tooltip-wrap.zip:before {
+        right: unset;
+        left: 45%;
+    }
+}
+
+@media(max-width: 476px) {
+    .tooltip-wrap.zip:before {
+        right: unset;
+        left: 50%;
+    }
+}
+
+@media(max-width: 420px) {
+    .tooltip-wrap.zip:before {
+        right: unset;
+        left: 60%;
+    }
+}
+
+@media(max-width: 375px) {
+	.tooltip-wrap {
+		right: auto;
+	}
+
+    .tooltip-wrap.zip:before {
+        right: unset;
+        left: 70%;
+    }
+}

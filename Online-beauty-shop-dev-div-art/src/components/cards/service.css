@@ -1,0 +1,35 @@
+.card {
+    font-family: 'Avenir LT Std 45 Book';
+}
+
+.service-card.active .service-hiiden-block {
+	height: 250px;
+	box-shadow: 0px 8px 12px 1px rgba(0,0,0,0.1);
+	border-bottom: 1px solid #dee2e6!important;
+	border-right: 1px solid #dee2e6!important;
+	border-left: 1px solid #dee2e6!important;
+}
+
+@media (min-width: 1200px) {
+	.service-card.active .service-hiiden-block {
+		height: 200px;
+	}
+}
+
+
+.service-card.active {
+    box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.1);
+}
+
+.wrap-service-hidden-block {
+	margin-top: -7px;
+}
+
+.service-hiiden-block {
+	height: 0px;
+	overflow: hidden;
+	right: -1px;
+	left: -1px;
+	transition: height .2s;
+}
+

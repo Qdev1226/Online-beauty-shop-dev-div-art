@@ -1,0 +1,7 @@
+.flex-item-img {
+	flex-grow: 1;
+}
+
+.flex-item {
+	flex-grow: 2;
+}

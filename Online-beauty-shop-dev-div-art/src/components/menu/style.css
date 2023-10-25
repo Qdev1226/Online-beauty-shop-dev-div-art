@@ -1,0 +1,94 @@
+.wrap-side-menu {
+	background-color: #000;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 100%;
+	width: 100%;
+	z-index: 2;
+	overflow-y: auto;
+	overflow-x: hidden;
+	font-family: 'Avenir LT Std 45 Book';
+	transition: left 0.6s ease-out;
+}
+
+.wrap-left-menu {
+	background-color: #F3F3F3;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 100%;
+	width: 100%;
+	z-index: 5;
+	overflow-y: auto;
+	overflow-x: hidden;
+	font-family: 'Avenir LT Std 45 Book';
+	transition: right 0.5s;
+}
+
+.wrap-left-menu.active {
+	right: 0%;
+}
+
+.wrap-side-menu.active {
+	left: 0%;
+}
+
+.wrap-side-menu a {
+	color: #fff;
+}
+
+.wrap-side-menu i {
+	font-size: 18px;
+}
+
+.wrap-menu-web {
+    box-shadow: 8px 0px 20px 1px rgba(0,0,0,0.1);
+}
+
+
+
+.wrap-order-menu {
+    margin-left: -17px;
+    margin-right: -17px;
+}
+
+.wrap-drop-search {
+	margin-left: -16px;
+    margin-right: -16px;
+}
+
+.wrap-drop-search:hover {
+	background-color: #609D6D;
+	
+}
+
+.wrap-drop-search:hover .drop-search-item {
+	background-color: #fff;
+	color: #609D6D !important;
+}
+
+.menu-web-item:hover,
+.menu-web-item.active {
+	background-color: #609D6D;
+	color: #fff;
+}
+
+.svg-icon,
+.svg-icon-hover {
+	position: absolute;
+}
+
+.svg-icon-hover {
+	opacity: 0;
+}
+
+.menu-web-item:hover .svg-icon,
+.menu-web-item.active .svg-icon {
+	opacity: 0;
+}
+
+.menu-web-item:hover .svg-icon-hover,
+.menu-web-item.active .svg-icon-hover {
+	opacity: 1;
+}

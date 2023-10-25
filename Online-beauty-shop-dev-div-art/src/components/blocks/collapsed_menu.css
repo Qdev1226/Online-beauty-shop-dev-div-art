@@ -1,0 +1,9 @@
+.wrap-collapsed-body {
+	overflow: hidden;
+	max-height: 0px;
+	transition: max-height 0.3s;
+}
+
+.wrap-collapsed-body.active {
+	max-height: 800px;
+}
